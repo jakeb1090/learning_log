@@ -138,5 +138,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+#heroku addition
+DISABLE_COLLECTSTATIC=1
 
 STATIC_URL = '/static/'
