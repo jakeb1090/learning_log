@@ -5,8 +5,8 @@ import os
 
 import requests
 
-api_key = '117fc9f739845d5f616af35ae5ab3a47'
-api_key_v4 = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMTdmYzlmNzM5ODQ1ZDVmNjE2YWYzNWFlNWFiM2E0NyIsInN1YiI6IjVmMjMzZDIzNDM5OTliMDAzNTVkNjllOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.P2pUMBgZG_aVajvzRG7BcLkZAm3DaVPbdR02vC9VeJY'
+api_key = '...'
+api_key_v4 = '...'
 api_version = 3
 base_url = f"https://api.themoviedb.org/{api_version}"
 resource_path = '/tv/airing_today'
