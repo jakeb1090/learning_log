@@ -95,6 +95,7 @@ WSGI_APPLICATION = 'learning_log.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# heroku_remove
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
