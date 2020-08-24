@@ -15,6 +15,22 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
+#Heroku asset config
+STATIC_ROOT = 'staticfiles'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static')
+)
+
+
+#Heroku settings
+if os.getcwd() == '/app':
+    import dj_databse_url
+    DATABASES= {
+        'default': dj-database-url.config(default='postgres://localhost')
+    }
+
+SECURE_PROXY_SSL_HEADER = ('HTTP:_X_FORWARDED_PROTO', 'https')
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,7 +42,7 @@ SECRET_KEY = 'mssjuiq3f!z3bx&x5rsnhkxx3a2ma3=-^(9iaq@qprzmzy5@#&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
