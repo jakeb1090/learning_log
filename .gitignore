@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#learning_log
+11_env/
+__pycache__/
+*.sqlite3
+
 # C extensions
 *.so
 
